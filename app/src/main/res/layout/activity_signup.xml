@@ -29,10 +29,14 @@
             <EditText
                 android:id="@+id/editNombre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_input"
                 android:ems="10"
                 android:hint="Ingrese sus Nombres"
                 android:inputType="textPersonName"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
                 android:text=""
                 tools:ignore="Autofill" />
         </LinearLayout>
@@ -51,10 +55,14 @@
             <EditText
                 android:id="@+id/editApellido"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_input"
                 android:ems="10"
                 android:hint="Ingrese sus Apellidos"
                 android:inputType="textPersonName"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
                 android:text=""
                 tools:ignore="Autofill" />
         </LinearLayout>
@@ -73,10 +81,14 @@
             <EditText
                 android:id="@+id/editCedula"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_input"
                 android:ems="10"
                 android:hint="Ingrese su Cedula"
                 android:inputType="number"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
                 android:text=""
                 tools:ignore="Autofill" />
 
@@ -96,10 +108,14 @@
             <EditText
                 android:id="@+id/editEdad"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_input"
                 android:ems="10"
                 android:hint="Ingrese su Edad"
                 android:inputType="number"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
                 android:text=""
 
                 tools:ignore="Autofill" />
@@ -119,10 +135,14 @@
             <EditText
                 android:id="@+id/editAltura"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_input"
                 android:ems="10"
                 android:hint="Ingrese su Altura"
                 android:inputType="numberDecimal"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
                 android:text=""
                 tools:ignore="Autofill" />
         </LinearLayout>
@@ -141,10 +161,14 @@
             <EditText
                 android:id="@+id/editPeso"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_input"
                 android:ems="10"
                 android:hint="Ingrese su Peso"
                 android:inputType="numberDecimal"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
                 android:text=""
                 tools:ignore="Autofill" />
         </LinearLayout>
@@ -163,10 +187,14 @@
             <EditText
                 android:id="@+id/editEmail"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_input"
                 android:ems="10"
                 android:hint="Ingrese su Email"
                 android:inputType="textEmailAddress"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
                 android:text=""
                 tools:ignore="Autofill" />
         </LinearLayout>
@@ -185,10 +213,14 @@
             <EditText
                 android:id="@+id/editUsuario"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_input"
                 android:ems="10"
                 android:hint="Ingrese su Usuario"
                 android:inputType="textPersonName"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
                 android:text=""
                 tools:ignore="Autofill" />
         </LinearLayout>
@@ -207,10 +239,14 @@
             <EditText
                 android:id="@+id/editClave"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_input"
                 android:ems="10"
                 android:hint="Ingrese su Clave"
                 android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
                 android:text=""
                 tools:ignore="Autofill" />
         </LinearLayout>
@@ -220,6 +256,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_active_btn"
             android:onClick="signup"
             android:padding="16dp"
             android:text="Grabar" />
